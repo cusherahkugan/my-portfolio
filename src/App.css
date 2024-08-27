@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Ensure each section takes up 100% of the viewport height */
+section {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* Smooth scroll for a better user experience */
+html {
+  scroll-behavior: smooth;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style each section for visual separation */
+#about {
+  background-color: #060606; /* Light background */
+}
+
+#projects {
+  background-color: #1b1e20; /* Slightly darker */
+}
+
+#contact {
+  background-color: #000408; /* Even darker */
+}
+
+/* Basic styling for the footer */
+footer {
+  background-color: #84cc16;
+  color: rgb(9, 9, 9);
+  padding: 1rem 0;
+  text-align: center;
 }
