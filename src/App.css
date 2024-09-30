@@ -14,21 +14,21 @@ html {
 
 /* Style each section for visual separation */
 #about {
-  background-color: #060606; /* Light background */
+  background-color: #1a0e24; /* Dark purple background */
 }
 
 #projects {
-  background-color: #1b1e20; /* Slightly darker */
+  background-color: #2b1a38; /* Slightly darker purple */
 }
 
 #contact {
-  background-color: #000408; /* Even darker */
+  background-color: #100a18; /* Even darker purple */
 }
 
 /* Basic styling for the footer */
 footer {
-  background-color: #84cc16;
-  color: rgb(9, 9, 9);
+  background-color: #5e35b1; /* Purple footer */
+  color: #ffffff; /* White text */
   padding: 1rem 0;
   text-align: center;
 }

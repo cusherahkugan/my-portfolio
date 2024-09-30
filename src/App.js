@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Portfolio from './components/Portfolio'; 
 import './App.css';
 
 function App() {
@@ -10,15 +11,8 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <section id="about">
-          <About />
-        </section>
-        <section id="projects">
-          <Projects />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
+      <Portfolio />
+
       </main>
       <footer className="bg-blue-500 text-white p-4 text-center">
         <p>&copy; 2024 Cusherah Kuagnanthan</p>

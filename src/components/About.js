@@ -15,17 +15,16 @@ function About() {
           My goal is to continually grow as a developer and contribute to impactful projects that make a difference.
         </p>
         <div className="flex space-x-4 mt-6">
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/cusherah" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github fa-2x"></i>
           </a>
-          <a href="https://www.linkedin.com/in/your-linkedin-profile/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/cusherah/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin fa-2x"></i>
           </a>
         </div>
       </div>
       <div className="image-section lg:w-1/2 flex justify-center mt-8 lg:mt-0">
-        <img  alt="Cusherah Kuagnanthan" className="rounded-full w-1/2 border-4 border-gray-700" />
-        <img  alt="Illustration" className="w-1/2" />
+        <img src="/path/to/me.png" alt="Cusherah Kuagnanthan" className="rounded-full w-1/2 border-4 border-gray-700" />
       </div>
     </div>
   );

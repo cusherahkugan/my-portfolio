@@ -1,22 +1,22 @@
-
+import React from 'react';
 import { motion } from 'framer-motion';
 
 const projects = [
   {
     title: "FarmToKeells",
     description: "Developed an online platform for local farmers to sell produce directly to consumers.",
-    link: "#"
+    link: "https://github.com/cusherahkugan/FarmToKeells"
   },
   {
     title: "Eventix",
     description: "An event management system with features for organizing and managing events.",
-    link: "#"
+    link: "https://github.com/cusherahkugan/Eventix"
   }
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="p-6 bg-gray-100">
+    <section id="projects" className="p-6 bg-purple-700 text-white">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -29,7 +29,7 @@ const Projects = () => {
             <li key={index} className="mb-4">
               <h3 className="text-2xl font-semibold">{project.title}</h3>
               <p>{project.description}</p>
-              <a href={project.link} className="text-blue-500">View Project</a>
+              <a href={project.link} className="text-blue-500" target="_blank" rel="noopener noreferrer">View Project</a>
             </li>
           ))}
         </ul>
