@@ -76,3 +76,73 @@ body {
     transform: scale(1.2);
   }
   
+  .portfolio-container {
+    max-width: 1200px; /* Set a max width for the portfolio */
+    margin: 0 auto; /* Center the portfolio */
+    padding: 20px; /* Overall padding */
+  }
+  
+  .introduction-section {
+    display: flex; /* Use flexbox to align content */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Center items vertically */
+    padding: 40px; /* Increased padding for introduction section */
+  }
+  
+  .introduction-content {
+    flex: 1; /* Allow the text to take up space */
+    padding-right: 20px; /* Space between text and image */
+  }
+  
+  .introduction-image {
+    width: 300px;  /* Set your desired width */
+    height: auto;  /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+  
+  
+  .skills-section,
+  .about-me-section,
+  .projects-section,
+  .connect-section,
+  .reach-out-section {
+    padding: 40px; /* Increased padding for each section */
+    margin: 20px 0; /* Margin between sections */
+    border: 1px solid #ddd; /* Optional: Border around each section */
+    border-radius: 10px; /* Optional: Rounded corners */
+  }
+  
+  .skill-icon,
+  .project-image,
+  .social-icon {
+    margin: 10px; /* Add some margin to icons and images */
+  }
+  
+  .projects-container {
+    display: flex; /* Use flexbox for project cards */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Space out cards */
+  }
+  
+  .project-card {
+    flex: 1 1 calc(30% - 20px); /* Responsive project cards */
+    margin: 10px; /* Margin between project cards */
+    text-align: center; /* Center text in project cards */
+    padding: 20px; /* Padding inside project cards */
+    border: 1px solid #ddd; /* Border for project cards */
+    border-radius: 10px; /* Rounded corners for project cards */
+  }
+  
+  .project-title {
+    margin: 10px 0; /* Space around the title */
+  }
+  
+  .project-description {
+    font-size: 0.9em; /* Smaller font for description */
+  }
+  
+  .social-icon {
+    width: 40px; /* Set a size for social icons */
+    height: 40px; /* Set a size for social icons */
+  }
+  

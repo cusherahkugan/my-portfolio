@@ -1,15 +1,19 @@
 import React from "react";
 import './Portfolio.css'; // Import the CSS file for styles
+import meImage from './images/me.png'; // Adjust the path as necessary
+
 
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
       <section className="introduction-section">
-        <h1 className="portfolio-title">👋 Hello, I'm Cusherah Kugananthan!</h1>
-        <h2 className="portfolio-subtitle">🌟 Full Stack Developer</h2>
-        <p className="portfolio-description">
-          As a dedicated and results-driven Full Stack Developer from Colombo, Sri Lanka, I specialize in Java, JavaScript, React.js, and Spring Boot. I am passionate about delivering high-quality web applications and software solutions. With a keen focus on user experience, I am constantly enhancing my skills and staying up-to-date with the latest technologies.
-        </p>
+        <div className="introduction-content">
+          <h1 className="portfolio-title">👋 Hello, I'm Cusherah Kugananthan!</h1>
+          <p className="portfolio-description">
+            As a dedicated and results-driven Full Stack Developer from Colombo, Sri Lanka, I specialize in Java, JavaScript, React.js, and Spring Boot. I am passionate about delivering high-quality web applications and software solutions. With a keen focus on user experience, I am constantly enhancing my skills and staying up-to-date with the latest technologies.
+          </p>
+        </div>
+        <img src={meImage} alt="Cusherah" className="introduction-image" /> {/* Replace with your image URL */}
       </section>
 
       <section className="skills-section">
